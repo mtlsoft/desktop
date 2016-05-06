@@ -1,0 +1,23 @@
+<schema>
+    <modules>
+        <module>
+            <tag>test_module</tag>
+            <title>Test module</title>
+            <description>Test module description</description>
+            <parameters>
+                <param type="color" name="bg_color" />
+                <param type="string" name="title_text" />
+                <param type="int" name="page_global_id" />
+            </parameters>
+        </module>
+        <module>
+            <tag>demo_module</tag>
+            <title>Demo module</title>
+            <description>This is a demo module</description>
+            <parameters>
+                <param type="file" name="bg_image" />
+                <param type="string" name="title_text" />
+            </parameters>
+        </module>
+    </modules>
+</schema>

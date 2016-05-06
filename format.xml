@@ -1,0 +1,20 @@
+<project>
+ <pages>
+  <page id="0">
+   <title>porshe</title>
+   <icon_path>file:///home/user/projects/img/porsche_logo.png</icon_path>
+   <module tag="demo_module">
+    <param name="bg_image">file:///home/user/projects/img/porshe.jpg</param>
+    <param name="title_text">This is porshe baby</param>
+   </module>
+  </page>
+  <page id="1">
+   <title>ferrari</title>
+   <icon_path>file:///home/user/projects/img/Ferrari_emblem.png</icon_path>
+   <module tag="demo_module">
+    <param name="bg_image">file:///home/user/projects/img/ferrari.jpg</param>
+    <param name="title_text">This is ferrari baby</param>
+   </module>
+  </page>
+ </pages>
+</project>
