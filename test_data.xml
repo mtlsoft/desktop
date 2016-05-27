@@ -19,5 +19,57 @@
                 <param type="string" name="title_text" />
             </parameters>
         </module>
+        <module>
+            <tag>scroll_list</tag>
+            <title>Scroll list module</title>
+            <description>This is a scroll list module</description>
+            <parameters>
+                <param type="int" name="content_page_id" />
+                <param type="int" name="visible_item_count" default="3" />
+                <param type="real" name="item_content_width_koef" default="0.9" />
+                <param type="real" name="item_content_height_koef" default="0.9" />
+
+                <param type="string" name="item_content_border_factor" default="relative" /> <!-- // "absolute" -->
+                <param type="real" name="item_content_border_koef" default="0.05" />
+                <param type="int" name="item_content_border_value" default="10" />
+
+                <param type="int" name="content_spacer_width" default="10" />
+
+                <param type="real" name="item_picture_width_koef" default="0.4" />
+
+                <param type="string" name="delegate_bg_color" default="blue" />
+                <param type="file" name="delegate_bg_image_source" default="" />
+
+                <param type="string" name="delegate_content_bg_color" default="opacity" />
+                <param type="file" name="delegate_content_bg_image_source" default="" />
+            </parameters>
+
+            <adapters>
+                <adapter tag="fontanka_list_adpt">
+                    <title>Адаптер списка для фонтанки</title>
+                    <owner>fontanka</owner>
+                    <remote>true</remote>
+                    <url>http://fontanka.ru/adapters/fontanka_list.js</url>
+                </adapter>
+            </adapters>
+
+            </module>
+        <module>
+            <tag>content_view_module</tag>
+            <title>Content view module</title>
+            <description>This is a content view module</description>
+            <parameters />
+
+            <adapters>
+                <adapter tag="fontanka_content_adpt">
+                    <title>Адаптер просмотра контента для фонтанки</title>
+                    <owner>fontanka</owner>
+                    <url/>
+                    <path/>
+                    <remote>false</remote>
+                </adapter>
+            </adapters>
+
+        </module>
     </modules>
 </schema>

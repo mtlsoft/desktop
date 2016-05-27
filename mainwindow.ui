@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>447</width>
+    <width>411</width>
     <height>300</height>
    </rect>
   </property>
@@ -25,7 +25,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>447</width>
+     <width>411</width>
      <height>19</height>
     </rect>
    </property>
@@ -53,6 +53,7 @@
    <addaction name="actionPublish"/>
    <addaction name="separator"/>
    <addaction name="actionNew_page"/>
+   <addaction name="actionEdit_page"/>
    <addaction name="actionRemove_page"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
@@ -96,6 +97,14 @@
   <action name="actionRemove_page">
    <property name="text">
     <string>Remove page</string>
+   </property>
+  </action>
+  <action name="actionEdit_page">
+   <property name="text">
+    <string>Edit page</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit page</string>
    </property>
   </action>
  </widget>
